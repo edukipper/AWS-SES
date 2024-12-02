@@ -6,6 +6,6 @@
 	"mainsrc": "/src",
 	"projects": [],
 	"dependencies": {
-		"github.com/viniciussanchez/RESTRequest4Delphi": "^1.0.0"
+		"github.com/viniciussanchez/RESTRequest4Delphi": "1.0.0"
 	}
 }
