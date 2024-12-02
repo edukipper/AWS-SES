@@ -7,7 +7,7 @@ uses
 
 type
 
-  TBodyType = (btHTML, btText);
+  TBodyType = (btText, btHTML);
 
   IEmailData = interface
     ['{04ACACC8-51CC-4647-BFEA-DDE61D77198A}']
@@ -181,6 +181,7 @@ begin
   FRecipients := TList<string>.Create;
   FCC := TList<string>.Create;
   FBCC := TList<string>.Create;
+  FBodyType := TBodyType.btText;
 end;
 
 end.
