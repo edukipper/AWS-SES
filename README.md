@@ -3,7 +3,7 @@
 * **Manual installation**: Add the following folders to your project, in *Project > Options > Building > Delphi Compiler > Search path*
 
 ```
-../AWS_SES/src
+../AWS-SES/src
 ```
 
 * Installation using the [**Boss**](https://github.com/HashLoad/boss):
@@ -14,7 +14,7 @@ boss install github.com/edukipper/AWS-SES
 
 ## ⚡️ Quickstart
 
-You need to use AWS_SES
+You need to use AWS-SES
 
 ```pascal
 uses AWS.SES.Authentication.AWS4.Impl, AWS.SES.Authentication.Intf,
